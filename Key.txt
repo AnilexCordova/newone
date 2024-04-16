@@ -1,0 +1,14 @@
+﻿ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCmPRSHFKf7iC86Ii+Z7W0+313K1tjzmi55LMU8KbV1Mhi0lVhvq71bbHvuTujTIJ8Syr1oEiHJT3iQqch4dwf54zY5nVYfLoZpuEmDZorU4+8FK6sPZEIZ600bX8M3s5chvcQsHlhrtiYczUbnpr31/FBaxsZI+B1Dr6KYxJoKlRv5FcrlLWe//W53DHTOG7ecHTkwI+wBSwZh5w5V1H5WnZOtmJBteUIvuzlb0Tai3qtf5pZ7dHVPUKNeMUnBGHJK1WYWcq1AgJ3pwfZl7TjJTjMcz6+UbtvmQIonVNUXOxMgCwSSOrs8k6E9d/vd1Q+3vZ3ZeAfo7UaWwKGeJwWxYagqtkdwCzAG11qyfjvo8TdM1aTR5RA5XMUcPOl0bMSyJ/Ax/BlVYRV/mEsNosqcjaTTmkqv81/AkNFY39W6TybEhGkShnpoAOxrJGbFdcbBEctsype6BD8NRN3cpaM95SCuoBEBQsT9I5qsUg8C/sWIjnFSz924R9G+nVq0tseOYx9q9MfS2rCRORKimgCR6XnVqGExwtSQ0r0SL+e3Gm+C51bpCKrtmrzAu6ClnSnPE/iF8repqC6OhsFH6AQT1zlV4b/TvaTZo448sp8TGc3Ky/Xctaz1pqrikDcVjwlegRB73wPGw4MhTlwwL9CKpe20aa5jzAOhsIRuaT9LSw== anilex@cordovacloud.com
+
+echo "# newone" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AnilexCordova/newone.git
+git push -u origin main
+
+git remote add origin https://github.com/AnilexCordova/newone.git
+git branch -M main
+git push -u origin main
+
